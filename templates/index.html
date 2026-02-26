@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MalariaScope AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="main-container">
+
+    <h1 class="title">🧬 MalariaScope AI</h1>
+    <p class="subtitle">AI Powered Malaria Detection System</p>
+
+    <div class="card upload-card">
+
+        <h2>Upload Blood Cell Image</h2>
+
+        <input type="file" id="imageInput">
+
+        <div id="preview"></div>
+
+        <button onclick="uploadImage()">Analyze Sample</button>
+
+    </div>
+
+    <div id="result" class="hidden"></div>
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>

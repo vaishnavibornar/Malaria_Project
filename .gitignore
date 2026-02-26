@@ -1,4 +1,6 @@
-dataset/
+__pycache__/
+.ipynb_checkpoints/
 *.h5
 *.keras
-.ipynb_checkpoints/
+tf_env/
+.env
