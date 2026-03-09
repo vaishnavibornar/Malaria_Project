@@ -3,4 +3,4 @@ __pycache__/
 *.h5
 *.keras
 tf_env/
-.env
+.env.DS_Store
