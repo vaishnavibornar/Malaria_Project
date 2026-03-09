@@ -4,3 +4,4 @@ __pycache__/
 *.keras
 tf_env/
 .env.DS_Store
+.DS_Store
